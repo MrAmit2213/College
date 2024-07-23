@@ -1,0 +1,19 @@
+.company{
+    padding-left: 13%;
+}
+
+.footerTxt > div{
+    font-size: small;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 400px) {
+    .mainFooter{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .company{
+        padding: 0 30px;
+    }
+}

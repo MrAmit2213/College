@@ -1,0 +1,33 @@
+.login-container {
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 102vh;
+    background-image: url(../../public/images/Bit-mesra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login{
+    margin-top: 13%;
+    background-color: rgba(205, 202, 197, 0.526);
+    padding: 20px 25px;
+    border: 1px grey solid;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.login button{
+    width: 100%;
+    margin-top: 5px;
+}
+
+@media (max-width: 400px) {
+    .login-container{
+        display: block;
+        padding: 70px 33px;
+        height: 103vh;
+    }
+}

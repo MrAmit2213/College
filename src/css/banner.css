@@ -1,0 +1,17 @@
+.banner{
+    height: 70vh; 
+    overflow : hidden;
+  }
+
+  .bannerHeight{
+    height: 70vh;
+  }
+
+  @media(max-width:400px){
+    .banner{
+      height: 30vh;
+    }
+    .bannerHeight{
+      height: 30vh;
+    }
+  }

@@ -1,0 +1,51 @@
+.landingPageBody{
+    min-height: 80vh;
+}
+
+.adjustPage{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 13vh;
+}
+
+.collegeCard{
+    width: 30vw;
+    min-height: 60vh;
+    background-color: rgba(68, 68, 230, 0.548);
+}
+
+.collegeDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linkButton{
+    margin: 0 30%;
+    min-height: 50px;
+    border-radius: 25px;
+}
+
+.cardTitle{
+    padding: 15px 0;
+    margin: 0 12px;
+}
+
+.imm{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 400px){
+    .adjustPage{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10vh;
+        gap: 7vh;
+    }
+
+    .collegeCard{
+        width: 100%;
+    }
+}

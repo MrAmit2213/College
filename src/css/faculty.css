@@ -1,0 +1,31 @@
+.details p{
+    margin-bottom: 0px;
+}
+.sz{
+    font-size: 12px;
+}
+.crd{
+    max-width: none;
+}
+table{
+    border: 2px solid black;
+    text-align: center;
+    width: 82vw;
+}
+tr{
+    border-bottom: 1px solid grey;
+}
+td, th{
+    border-right: 1px solid grey;
+    padding: 10px;
+}
+td{
+    height: 100px;
+}
+tr :first-child{
+    padding: 0;
+}
+td img{
+    width: 100%;
+    object-fit: cover;
+}

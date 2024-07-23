@@ -1,0 +1,36 @@
+.card img {
+    max-height: 200px;
+  }
+
+  .pillar{
+    margin-top: 7vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  @media (max-width: 400px) {
+    .pillar{
+      margin-top: 15px;
+    }
+    
+    .mem{
+      margin-top: 2vh;
+      height: 77vh;
+    }
+
+    .slid{
+      font-size: small;
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+    }
+
+    .txts{
+      padding: 5px;
+    }
+
+    .dtl{
+      padding: 0;
+      margin-top: 0 !important;
+    }
+
+  }
+  

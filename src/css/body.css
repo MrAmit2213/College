@@ -1,0 +1,104 @@
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-weight: 450;
+    height: 40vh;
+}
+
+.fix {
+    margin-top: 10vh;
+}
+
+.btns1 {
+    margin-left: 4%;
+}
+
+.btns2 {
+    margin-right: 4%;
+}
+
+.link {
+    color: rgb(76, 112, 171);
+}
+
+.sublink {
+    color: rgb(126, 159, 213);
+}
+
+.clgDtl {
+    max-height: 350px;
+}
+
+.dtl {
+    max-width: 320px;
+}
+
+.mainImg {
+    min-height: 250px;
+    max-width: 350px;
+}
+
+.bb {
+    border-bottom: 1px rgb(232, 226, 226) solid;
+}
+  
+  .show {
+    display: block; /* Display the dropdown menu when show class is applied */
+  }
+
+  .adjust{
+    width: 100%;
+  }
+
+  .sett{
+    margin-left: 10vw;
+  }
+
+@media (max-width: 400px) {
+    .fix {
+        flex-direction: column;
+        margin-top: 3vh;
+    }
+
+    .btns {
+        margin: 0;
+    }
+
+    .dtl {
+        margin-top: 3vh;
+    }
+
+    .imgDiv {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin: 3vh;
+    }
+
+    .btns2 {
+        margin-top: 5vh;
+        order: 3;
+    }
+
+    .btns1 {
+        order: 2;
+        margin-top: 25vh;
+    }
+
+    .clgDtl {
+        order: 1;
+    }
+
+    .sign{
+        margin-bottom: 10px;
+    }
+
+    .mainImg{
+        margin-top: 5vh;
+    }
+}
