@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className={`${address === '/admin/login' || address === '/' ? 'd-none' : 'd-block'}`} >
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">LOGO</Link>
+                    <Link className="" to="/"><img className='navlogo' src={address.includes('khaga') ? "./images/logoKhagha.png" : "./images/logoKoderma.png"} alt="logo" /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
