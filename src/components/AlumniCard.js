@@ -44,8 +44,8 @@ function AlumniCard(props) {
 
     return (
         <div className='container mt-4'>
-            <h1 className='mb-5'>{props.title}</h1>
-            <div className='gap-5' style={{ display: 'flex', flexWrap: 'wrap' }}>
+            <h1 className='mb-5 titl'>{props.title}</h1>
+            <div className='gap-4 cen' style={{ display: 'flex', flexWrap: 'wrap' }}>
                 {images.map((im) => (
                     <div key={im._id} className="card" style={{ width: '13rem' }}>
                         <img src={`data:image/jpeg;base64,${im.imgData}`} className="card-img-top" alt="Alumni img" />

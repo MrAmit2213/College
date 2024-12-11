@@ -41,9 +41,9 @@ const Navbar = () => {
                                 {/* eslint-disable-next-line */}
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
                                 <ul className="dropdown-menu dropdown-menu-dark">
-                                    <li><Link className="dropdown-item" to='/'>Fitter</Link></li>
-                                    <li><Link className="dropdown-item" to='/'>Electrician</Link></li>
-                                    <li><Link className="dropdown-item" to='/'>Serveyor</Link></li>
+                                    <li><Link className="dropdown-item" to=''>Fitter</Link></li>
+                                    <li><Link className="dropdown-item" to=''>Electrician</Link></li>
+                                    <li><Link className="dropdown-item" to=''>Serveyor</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item">

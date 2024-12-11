@@ -1,5 +1,5 @@
 .card img {
-    max-height: 200px;
+    max-height: 250px;
   }
 
   .pillar{
@@ -10,6 +10,17 @@
   @media (max-width: 400px) {
     .pillar{
       margin-top: 15px;
+    }
+
+    .cen{
+      justify-content: center;
+    }
+
+    .titl{
+      margin-left: 5%;
+      font-weight: 600;
+      font-size: 40px;
+      margin-bottom: 40px !important;
     }
     
     .mem{
@@ -30,6 +41,9 @@
     .dtl{
       padding: 0;
       margin-top: 0 !important;
+    }
+    .card{
+      width: 90% !important;
     }
 
   }

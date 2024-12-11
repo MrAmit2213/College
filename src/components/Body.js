@@ -21,7 +21,7 @@ const Body = (props) => {
                 <div className="mb-3 container clgDtl" >
                     <div className=" d-flex row justify-content-center align-items-center g-5 " >
                         <div className="col-md-5 imgDiv">
-                            <img src={`./images/${props.campus ? 'campus2.jpg' : 'Bit-mesra.jpg'}`} className="img-fluid rounded mainImg" alt="Some pic" />
+                            <img src={`./images/${props.campus ? 'BASUKALA ITI 038.jpg' : 'BASUKALA ITI 038.jpg'}`} className="img-fluid rounded mainImg" alt="Some pic" />
                         </div>
                         <div className="col-md-8 dtl" >
                             <div className="card-body" >

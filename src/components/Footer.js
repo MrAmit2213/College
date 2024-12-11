@@ -6,14 +6,14 @@ const Footer = () => {
     let location = useLocation();
     return (
         <div className={`mt-5 ${location.pathname === '/admin/login' || location.pathname === ('/') ? 'd-none' : 'd-block'}`}>
-            <footer className="text-center text-lg-start bg-body-secondary text-muted">
+            <footer className="pb-4 text-center text-lg-start bg-body-secondary text-muted">
                 <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                     <div className="me-5 d-none d-lg-block">
                         <span>Get connected with us on social networks:</span>
                     </div>
 
                     <div>
-                        <a href="/" className="me-4 text-reset">
+                        <a href="" className="me-4 text-reset">
                             <i className="fab fa-facebook-f"></i>
                         </a>
                         <a href="https://www.google.com/search?q=basukala+iti&rlz=1C1RXQR_enIN1071IN1074&oq=basukala+iti&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigAdIBCDU4MjdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&lqi=CgxiYXN1a2FsYSBpdGlI7b2IvJmvgIAIWhYQABABGAAYASIMYmFzdWthbGEgaXRpkgEXZWR1Y2F0aW9uYWxfaW5zdGl0dXRpb26qATUQATIfEAEiG0_jSNTug4HHPG5qdgTQPHJpUnDEQ6IsJjs0GzIQEAIiDGJhc3VrYWxhIGl0aQ#rlimm=14500778528428571614" className="me-4 text-reset">
@@ -108,11 +108,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-
-                <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
-                    © 2021 Copyright:
-                    <Link className="text-reset fw-bold" to="https://mdbootstrap.com/">MDBootstrap.com</Link>
-                </div>
             </footer>
         </div>
     )

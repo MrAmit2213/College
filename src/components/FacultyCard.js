@@ -50,8 +50,8 @@ const FacultyCard = (props) => {
     return (
         <>
             <div className='container mt-0'>
-                <h1 className='mt-4 mb-5'>{props.title}</h1>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: "2vw" }}>
+                <h1 className='mt-4 mb-5 titl'>{props.title}</h1>
+                <div className="gap-4 cen" style={{ display: 'flex', flexWrap: 'wrap' }}>
                     {(location.pathname === "/faculty" || location.pathname === "/khagaFaculty" ) && images.map((im) => (
                         <div key={im._id} className="card" style={{ width: '13rem' }}>
                             <img src={`data:image/jpeg;base64,${im.imgData}`} className="card-img-top crd object-fit-cover" alt="Alumni img" />

@@ -67,7 +67,7 @@ const App = () => {
                       {authData.isLoggedIn ?
                         <BrowserRouter>
                           {authData.isLoggedIn && <AdminNavbar />}
-                          <div className='container ' style={{ marginTop: '70px' }}>
+                          <div className='container' style={{ marginTop: '70px' }}>
                             <Routes>
                               <Route exact path="/admin/updateBanner" element={<UpdateBanner />} />
                               <Route exact path="/admin/updateFeeStructure" element={<UpdateFeeStructure />} />

@@ -46,8 +46,8 @@ const FacilityCard = (props) => {
 
     return (
         <div className='container mt-4'>
-            <h1 className='mb-5'>{props.title}</h1>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: "2vw" }}>
+            <h1 className='mb-5 ms-2 titl'>{props.title}</h1>
+            <div className='gap-4 cen' style={{ display: 'flex', flexWrap: 'wrap' }}>
                 {images.map((im) => (
                     <div key={im._id} className="card wid">
                         <img src={`data:image/jpeg;base64,${im.imgData}`} className="card-img-top img object-fit-cover" alt="facility img" />
